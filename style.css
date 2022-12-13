@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #460C68;
+}
+
+.main-heading{
+    background-color: #7F167F;
+    color: white;
+    border-radius: 0.8rem;
+    font-family: 'Chivo Mono', monospace;
+    border: 1px solid #F56EB3;
+    /* box-shadow: -2px 2px 2px 2px black; */
+}
+
+.calc-wrapper{
+    background-color: cornflowerblue;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid grey;
+    border-radius: 0.5rem;
+}
+
+.oper-btn{
+    border: 1px solid black;
+    text-align: center;
+}
